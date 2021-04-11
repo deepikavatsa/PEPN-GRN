@@ -4,6 +4,7 @@ Petri net-based approach for the inference of gene regulatory networks from nois
 The PEPN-GRN repo contains code of three variants of the PEPN-GRN method and 3-bin discretized five 10-gene and five 100-gene DREAM4 time series data sets. The PEPN-GRN folder contains a "PEPN-GRN:tutorial" pdf file with a step-by-step tutorial showing how to run the code. Predicted edges in a ranked order, and AUROC and AUPR plots are generated as result.
 
 **Inside PEPN-GRN folder:**
+
 'sourcefiles' folder contains all the code files required for _**PEPN-GRN_v1 and PEPN-GRN_v2 implementation**_.
 
 'multi-bin-disc-dream4-data-repository' contains EFD, EWD and Kmeans discretized data sets of five 10-gene and five 100-gene DREAM4 time series data sets. It also contains the positive and negative edges in the groundtruth of five 10-gene and five 100-gene networks.
