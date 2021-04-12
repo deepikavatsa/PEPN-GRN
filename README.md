@@ -1,9 +1,9 @@
 # PEPN-GRN
 Petri net-based approach for the inference of gene regulatory networks from noisy gene expression data.
 
-The PEPN-GRN repo contains code of three variants of the PEPN-GRN method namely PEPN-GRN_v1, PEPN-GRN_v2, and PEPN-GRN_v3. It also contains 3-bin discretized five 10-gene and five 100-gene DREAM4 time series data sets. The _PEPN-GRN_ folder contains a "PEPN-GRN:tutorial" pdf file with a step-by-step tutorial showing how to run the code. Predicted edges in a ranked order, and AUROC and AUPR plots are generated as result.
+The PEPN-GRN repo contains code of three variants of the PEPN-GRN method namely PEPN-GRN_v1, PEPN-GRN_v2, and PEPN-GRN_v3. It also contains 3-bin discretized five 10-gene and five 100-gene DREAM4 time series data sets. It contains a "PEPN-GRN:tutorial" pdf file with a step-by-step tutorial showing how to run the code. Predicted edges in a ranked order, and AUROC and AUPR plots are generated as result.
 
-**Inside PEPN-GRN folder:**
+**Inside PEPN-GRN repo:**
 
 '_sourcefiles_' folder contains all the code files required for _**PEPN-GRN_v1 and PEPN-GRN_v2 implementation**_.
 
