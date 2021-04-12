@@ -13,8 +13,11 @@ The PEPN-GRN repo contains code of three variants of the PEPN-GRN method namely 
 
 _**FOR PEPN-GRN_v3 implementation:**_
 For PEPN-GRN_v3 implementation, first run PEPN-GRN_v1 to obtain edge probabilities. The edge probabilities generated are used as edge features in the logistic regression part of PEPN-GRN_v3. 
+
 '_log-regression_' folder contains another '_sourcefiles_' folder containing code files for logistic regression implementation of PEPN-GRN_v3 method. Edge probabilities from PEPN-GRN_v1 are stored in the '_input-files_' folder under '_log-regression_' folder.
+
 '_run_log-regression.sh_' is the shell script to run the logistic regression part of the PEPN-GRN_v3 on discretized 10-gene and 100-gene DREAM4 data sets.
+
 '_dream4_scoring.py_' python script computes AUROC and AUPR scores using the scoring function provided in the DREAMTools package.
 
 Note: All the source code is written in MATLAB (using MATLAB R2015a). A shell script is used to run the code.
